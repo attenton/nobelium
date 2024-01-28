@@ -118,7 +118,7 @@ pre[class*='language-'] {
 }
 .notion-asset-caption {
   @apply text-center;
-  @apply text-gray-500 dark:text-gray-400;
+  @apply text-stone-800 dark:text-gray-400;
 }
 .notion-asset-wrapper-tweet iframe {
   @apply bg-day dark:bg-night;
@@ -181,6 +181,11 @@ pre[class*='language-'] {
 .notion-list > li {
   padding-left: 2px;
   padding-right: 2px;
+}
+
+.notion-code {
+  @apply text-base;
+  font-family: 'LXGW WenKai';
 }
 
 /* Every block */
