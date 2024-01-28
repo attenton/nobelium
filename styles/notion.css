@@ -184,8 +184,8 @@ pre[class*='language-'] {
 }
 
 .notion-code {
-  @apply text-base;
-  font-family: 'LXGW WenKai';
+  font-size: 0.9rem !important;
+  font-family: LXGW WenKai !important;
 }
 
 /* Every block */
