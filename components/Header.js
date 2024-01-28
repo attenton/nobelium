@@ -128,15 +128,15 @@ export default function Header ({ navBarTitle, fullWidth }) {
 const HeaderName = forwardRef(function HeaderName ({ siteTitle, siteDescription, postTitle, onClick }, ref) {
   return (
     <>
-    <Link className="site-title text-black dark:text-gray-50" href="/">{siteTitle}</Link>
+    <Link className="site-title font-bold text-black dark:text-gray-50" href="/">{siteTitle}</Link>
     <p
       ref={ref}
       className="header-name ml-2 font-medium text-gray-600 dark:text-gray-300 capture-pointer-events grid-rows-1 grid-cols-1 items-center"
       onClick={onClick}
     >
-      {postTitle && <span className="post-title row-start-1 col-start-1">-{postTitle}</span>}
+      {postTitle && <span className="post-title row-start-1 col-start-1">-  {postTitle}</span>}
       <span className="row-start-1 col-start-1">
-        <span className="site-description font-normal">- {siteDescription}</span>
+        <span className="site-description font-normal">-  {siteDescription}</span>
       </span>
     </p>
     </>
