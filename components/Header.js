@@ -128,7 +128,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
 const HeaderName = forwardRef(function HeaderName ({ siteTitle, siteDescription, postTitle, onClick }, ref) {
   return (
     <>
-    <span className="site-title" href="/">{siteTitle}</span>
+    <Link className="site-title text-black dark:text-gray-50" href="/">{siteTitle}</Link>
     <p
       ref={ref}
       className="header-name ml-2 font-medium text-gray-600 dark:text-gray-300 capture-pointer-events grid-rows-1 grid-cols-1 items-center"
